@@ -1,0 +1,109 @@
+body {
+	background-color: black;
+	min-height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	padding : 20px;
+	color:#ee82ee;
+	font-family: Serif;
+	font-size:30px;
+	margin: 0;
+}
+
+p {
+	text-align: center;
+	color: #ffffff;
+	margin: 20px;
+	font-family: Serif;
+	font-size: 15px;
+}
+
+.pictures {
+	text-align: center;
+}
+
+.links {
+	border: 2px solide white;
+	padding: 0px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+}
+
+a:hover {
+  color: cyan;
+  background-color: transparent;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.block-of-links {
+	border: 2px solid white;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.fursona {
+	border: 2px solid white;
+	margin: 20px;
+	display: inline-block;
+}
+
+.link-border {
+	border-radius: 7px;
+	border: 2px solid white;
+}
+
+a {
+	text-align: center;
+	display: block;
+	padding: 0px 0px 30px 0px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.mails {
+	text-align: center;
+	display: block;
+	padding: 30px 0px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.padding {
+	padding: 10px;
+}
+
+.border-tab {
+  border: 1px solid white;
+}
+
+.wallpaper {
+	background-image: url('/home/haru/images/wallpapers/nightsky.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/* comment {{{ */
+/* margin : exterieur */
+/* padding : interieur */
+/* end comment}}} */
