@@ -6,8 +6,9 @@ body {
 .header {
 	display: flex;
 	justify-content: flex-end;
-	gap: 30px;
-	margin: 0 60px;
+	gap: 33px;
+	max-width: 1025px;
+	margin: auto;
 }
 
 .header p {
@@ -15,18 +16,25 @@ body {
 	font-family: 'Heebo';
 	font-weight: 500;
 	font-size: 20px;
+	line-height: 29px;
+	margin: 0;
+	padding-top: 27px;
+	padding-bottom: 27px;
 }
 
 .profile {
 	display: flex;
-	margin: 0 140px 40px 140px;
+	max-width: 850px;
+	margin: auto;
+	padding-top: 127px;
 }
 
 .profile-infos {
 	display: flex;
 	flex-direction: column;
 	flex: 1 1 0%;
-	margin-top: 100px;
+	padding-bottom: 71px;
+	margin: 0;
 }
 
 .profile-infos h2 {
@@ -34,8 +42,10 @@ body {
 	font-family: 'Heebo';
 	font-weight: 700;
 	font-size: 44px;
-	padding: 0;
-	margin: 0 0 25px 0;
+	padding-top: 18px;
+	line-height: 60px;
+	margin: 0;
+	padding-bottom: 22px;
 }
 
 .profile-infos p {
@@ -44,7 +54,8 @@ body {
 	font-size: 16px;
 	color: #21243D;
 	padding: 0;
-	margin: 0 0 30px 0;
+	margin: 0;
+	padding-bottom: 32px;
 }
 
 .profile-infos button {
@@ -57,7 +68,7 @@ body {
 	border-radius: 2px;
 	width: 208px;
 	height: 47px;
-	padding: 0;
+	padding-top: 0;
 	margin: 0;
 }
 .profile-img {
@@ -68,19 +79,25 @@ body {
 	background-size: 435px;
 	background-repeat: no-repeat;
 	background-image: url('imgs/chat.png');
-	margin-top: 90px;
+	padding: 0;
+	margin: 0;
 }
 
 .recent-posts {
 	display: flex;
 	flex-direction: column;
 	background-color: #EDF7FA;
+	padding: 0;
+	margin: 0;
 }
 .rpt {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 140px;
 	align-items: center;
+	max-width: 850px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 0;
 }
 
 .cl {
@@ -88,19 +105,119 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	color: #00A8CC;
+	padding: 0;
+	margin: 0;
 }
 .p1 {
 	font-family: 'Heebo';
 	font-weight: 400;
 	font-size: 22px;
 	color: #21243D;
+	padding: 0;
+	margin: 0;
 }
 
 .rpp {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	gap: 20px;
+	max-width: 850px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 0 30px 0;
 }
 .rpi {
 	display: flex;
 	flex-direction: column;
+	background-color: White;
+	width: 418px;
+	padding: 0 0 20px 0;
+	margin: 0;
+	border-radius: 5px;
+}
+
+.p1-1 {
+	font-family: 'Heebo';
+	font-weight: 700;
+	font-size: 26px;
+	color: #21243D;
+	padding: 20px 0 0 20px;
+	margin: 0;
+}
+.p1-2 {
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 18px;
+	color: #21243D;
+	padding: 20px 0 0 20px;
+	margin: 0;
+}
+.p1-3 {
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 16px;
+	color: #21243D;
+	padding: 20px 0 0 20px;
+	margin: 0;
+}
+.fw {
+	display: flex;
+	flex-direction: column;
+	max-width: 850px;
+	width: 100%;
+	margin: 0 auto;
+}
+.fwt {
+	color: #21243D;
+	font-family: 'Heebo';
+	font-style: regular;
+	font-size: 22px;
+	padding: 30px 0;
+	margin: 0;
+}
+.fwc {
+	display: flex;
+}
+.fwi {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+}
+.fwdate {
+	display: flex;
+}
+.img1 {
+	width: 246px;
+	height: 180px;
+	background-image: url('imgs/1.png');
+	border-radius: 5px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+}
+.img2 {
+
+}
+.img3 {
+
+}
+.fwp1 {
+	color: #21243D;
+	font-family: 'heebo';
+	font-weight: 700;
+	font-size: 30px;
+	padding: 0 0 0 20px;
+	margin: 0;
+	line-height: 25px;
+}
+.fwp4 {
+	color: #21243D;
+	font-family: 'heebo';
+	font-size: 16px;
+	padding: 0 0 0 20px;
+	margin: 0;
+	line-height: 25px;
+	color: #21243D;
 }
