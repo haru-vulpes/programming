@@ -78,6 +78,7 @@ body {
 	background-position: center;
 	background-size: 435px;
 	background-repeat: no-repeat;
+	filter: drop-shadow(-10px 10px 0 #EDF7FA);
 	background-image: url('imgs/chat.png');
 	padding: 0;
 	margin: 0;
