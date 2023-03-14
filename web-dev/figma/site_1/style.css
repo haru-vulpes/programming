@@ -172,20 +172,28 @@ body {
 	font-family: 'Heebo';
 	font-style: regular;
 	font-size: 22px;
-	padding: 30px 0;
+	padding: 30px 0 0 0;
 	margin: 0;
 }
 .fwc {
 	display: flex;
+	margin: 0;
+	padding: 30px 0;
 }
 .fwi {
 	display: flex;
 	flex-direction: column;
 	padding: 0;
 	margin: 0;
+	gap: 25px;
 }
 .fwdate {
 	display: flex;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 0 20px;
 }
 .img1 {
 	width: 246px;
@@ -198,10 +206,24 @@ body {
 	margin: 0;
 }
 .img2 {
-
+	width: 246px;
+	height: 180px;
+	background-image: url('imgs/2.png');
+	border-radius: 5px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
 }
 .img3 {
-
+	width: 246px;
+	height: 180px;
+	background-image: url('imgs/3.png');
+	border-radius: 5px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
 }
 .fwp1 {
 	color: #21243D;
@@ -212,12 +234,50 @@ body {
 	margin: 0;
 	line-height: 25px;
 }
+.fwp2 {
+	color: white;
+	font-family: 'heebo';
+	font-size: 18px;
+	font-weight: 700;
+	background-color: #142850;
+	border-radius: 15px;
+	padding: 0 10px;
+	margin: 0;
+}
+.fwp3 {
+	color: #8695A4;
+	font-family: 'heebo';
+	font-size: 20px;
+	padding: 0 0 0 20px;
+	margin: 0;
+}
 .fwp4 {
 	color: #21243D;
 	font-family: 'heebo';
 	font-size: 16px;
 	padding: 0 0 0 20px;
 	margin: 0;
-	line-height: 25px;
+}
+.line {
+	background-color: #E0E0E0;
+	height: 2px;
+	width: 100%;
+	margin: 0;
+}
+.sn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 35px;
+	margin: 0;
+	padding: 135px 0 25px 0;
+}
+.pl {
+	display: flex;
+	justify-content: center;
+	font-family: 'heebo';
+	font-size: 14px;
 	color: #21243D;
+	margin: 0;
+	padding: 0 0 50px 0;
 }
