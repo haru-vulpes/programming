@@ -10,15 +10,17 @@ function onKeydown(event){
 function addNote(){
 	const para = document.createElement("p");
 	const node = document.createTextNode(document.querySelector("#note").value);
-	para.appendChild(node);
-
-
-	const element2 = document.getElementById('addtxt');
-	element2.appendChild(para);
-	element.value = null;
-	if (document.getElementById('addtxt').hasChildNodes() > 0)
+	const addtxt = document.getElementById('addtxt');
+	addtxt.style.width = "100%";
+	if (addtxt.childElementCount > 0)
 	{
 		const sep = document.createElement("div");
-		element2.appendChild(para);
+		sep.style.height = "1px";
+		sep.style.width = "100%";
+		sep.style.backgroundColor = "rgb(148 163 184)";
+		addtxt.appendChild(sep);
 	}
+	para.appendChild(node);
+	addtxt.appendChild(para);
+	element.value = null;
 }
