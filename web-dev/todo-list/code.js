@@ -60,3 +60,4 @@ function addNote(){
 	
 	element.value = null;
 }
+ok
